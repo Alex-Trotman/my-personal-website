@@ -348,12 +348,52 @@
     display: none;
   }
 /* Start Alex's CSS */
+/* Primary color: #7438D2*/
+/* Secondary color: #ffffff */
+/* Accent color: #0cff00 */
+/* https://realtimecolors.com/?colors=ffffff-000000-7438D2-ffffff-0cff00 */
+
+
 
 body {
-    background: rgb(40, 40, 47);
+    background: #000000;
   }
 
-h1, h2 {
+
+.navbar-parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.navbar-parent h2 {
+    color: white;
+    padding: 0px;
+    margin: 0;
+    font-size: 24px;
+}
+
+.logo {
+    border-radius: 50%;
+    padding: 0px;
+}
+
+.navbar-ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+}
+
+.navbar-ul li {
+    padding: 0px;
+    font-size: 16px;
+    color: white;
+}
+
+h1 {
     color: white;
     text-align: center;
     text-shadow: red 2px 5px;

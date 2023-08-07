@@ -410,8 +410,22 @@ body {
 }
 
 .section-1 {
-  height: 70vh;
-  
+  max-height: 70vh;
+  max-width: 75vw;
+  display: flex;
+  flex-direction: row;
 }
 
+.portrait-image {
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.info-section {
+    width: 50vw;
+    color: white;
+}
 
